@@ -28,7 +28,7 @@ class Test_001_login:
         else:
             self.driver.save_screenshot(".\\Screen_shots\\"+"test_homepage_title.png")
             self.logger.error("************* Home Page Title test is failed **************")
-            time.sleep(6)
+            time.sleep(7)
             assert False
 
     def test_login(self,setup):
